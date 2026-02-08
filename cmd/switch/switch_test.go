@@ -4,8 +4,8 @@ func Example() {
 	main()
 
 	// Output:
-	// White 2 as two
-	// It's a weekday
+	// Write 2 as two
+	// It's the weekend
 	// It's after noon
 	// I'm a bool
 	// I'm an int

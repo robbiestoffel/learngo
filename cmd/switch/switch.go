@@ -20,7 +20,7 @@ func main() {
 
 	switch time.Now().Weekday() {
 	case time.Saturday, time.Sunday:
-		fmt.Println("I'm the weekend")
+		fmt.Println("It's the weekend")
 	default:
 		fmt.Println("It's a weekday")
 	}
@@ -30,7 +30,7 @@ func main() {
 	case t.Hour() < 12:
 		fmt.Println("It's before noon")
 	default:
-		fmt.Println("It's a after noon")
+		fmt.Println("It's after noon")
 	}
 
 	whatAmI := func(i interface{}) {
