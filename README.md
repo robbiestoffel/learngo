@@ -1,2 +1,2 @@
 # learngo
-You've guessed it- Learning GO.
+You've guessed it- learning Go.

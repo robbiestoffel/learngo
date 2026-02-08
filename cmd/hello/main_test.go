@@ -2,26 +2,19 @@ package main
 
 import "fmt"
 
-func ExampleMain() {
-
-	main()
-
-	// Output:
-	// Hello Robbie.
-	// Hello Frankie.
-}
-
 func ExampleGreet() {
-	greet("Robbie")
+	fmt.Println(Greet("World"))
+	fmt.Println(Greet("Frankie"))
 
 	// Output:
-	// Hello Robbie.
+	// Hello World.
+	// Hello Frankie.
 }
 
 func ExampleDouble() {
 
-	fmt.Println(double(2))
-	fmt.Println(double(9))
+	fmt.Println(Double(2))
+	fmt.Println(Double(9))
 
 	// Output:
 	// 4
